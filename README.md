@@ -6,8 +6,8 @@ Ideally, this application should run in the browser after deployment, removing t
 
 The majority of the work here is in creating the react app, building out the components, determining state, and connecting to an outside API. I have more work that I need to do on this assignment prior to deployment, but I am pushing now and will continue working.
 
-Repository 1: github.com/ptlillis/user-directory
-Repository 2: github.com/ptlillis/user-directory-2/tree/master
+Repository 1: https://github.com/ptlillis/user-directory
+Repository 2: https://github.com/ptlillis/user-directory-2/tree/master
 Incorrectly deployed link: https://ptlillis.github.io/user-directory/
 
 //
