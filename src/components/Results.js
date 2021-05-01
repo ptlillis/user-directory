@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import SearchForm from "./SearchForm";
-import EmployeeCard from "./EmployeeCard";
+import Form from "./Form";
+import Card from "./Card";
 import API from "../utils/API";
 import  "../styles/style.css"
 
@@ -14,7 +14,7 @@ class Results extends Component {
    
   };
 
-  // When this component mounts, search the Giphy API for pictures of kittens
+  // Search API for users
   componentDidMount() {
     API.search()
       .then(res => {
@@ -47,7 +47,7 @@ class Results extends Component {
 
  
 
-  // When the form is submitted, search the Giphy API for `this.state.search`
+  // When the form is submitted, search for 'this.state.search'
   handleFormSubmit = event => {
     event.preventDefault();
     const name = event.target.name;
